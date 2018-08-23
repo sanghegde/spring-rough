@@ -1,5 +1,8 @@
 package com.cg.employee.pojo;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Customer {
 	private String customerId;
 	private String customerName;
